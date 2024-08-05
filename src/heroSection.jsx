@@ -28,7 +28,7 @@ function HeroSection(){
                 >Welcome! I'm <br/> Avid Andrade Trejo </motion.h2>
                 <motion.p variants={container(0.6)}
                 initial="hidden"
-                animate = "visible">I'm a FIU Student, Studying Computer Science! I'm a Sophomore and looking for internships. </motion.p>
+                animate = "visible">I'm a FIU Student, Studying Computer Science! I'm a Junior and looking for internships. </motion.p>
 
             </div>
 
