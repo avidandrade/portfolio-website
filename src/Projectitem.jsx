@@ -24,8 +24,8 @@ function Project() {
                     transition = {{duration: 1.2}}
                     className="btn-container">
                     <img className="img-project" src={Project1} alt="" />
-                    <h7>Personal Finance Manager</h7>
-                    <p>Develop an application to help users manage their finances effectively. Include features such as budget tracking, expense categorization, goal setting, and visualization of financial data.</p>
+                    <h7>RESTFUL API Bookstore</h7>
+                    <p>Developed a Online bookstore using Spring Boot as the backend and PostgreSQL as the database. Developed Book browsing and sorting features to the API. The project has 20 endpoints.</p>
                 </motion.div>
 
                 <motion.div 
