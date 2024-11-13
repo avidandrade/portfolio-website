@@ -17,7 +17,17 @@ function Project() {
         
                 className="projects-section">
 
-
+                <motion.div 
+                    whileInView = {{opacity: 1, x: 0}}
+                    initial = {{opacity: 0, x: -100}}
+                    transition = {{duration: 1.4}}
+                    className="btn-container">
+                    <img className="img-project" src={Project2} alt="" />
+                    <h7>Full Stack Task Manager App</h7>
+                    <p>Led a team of four to develop a scalable task management app using Agile methodology, with a Node.js/Express backend, React/TypeScript frontend, and MySQL database. Designed seven reusable API routes for task and file CRUD operations, ensuring robust validation and error handling for a smooth user experience.</p>
+                
+                </motion.div>
+                
                 <motion.div
                     whileInView = {{opacity: 1, x: 0}}
                     initial = {{opacity: 0, x: -100}}
@@ -28,24 +38,13 @@ function Project() {
                     <p>Developed a Online bookstore using Spring Boot as the backend and PostgreSQL as the database. Developed Book browsing and sorting features to the API. The project has 20 endpoints.</p>
                 </motion.div>
 
-                <motion.div 
-                    whileInView = {{opacity: 1, x: 0}}
-                    initial = {{opacity: 0, x: -100}}
-                    transition = {{duration: 1.4}}
-                    className="btn-container">
-                    <img className="img-project" src={Project2} alt="" />
-                    <h7>Language Learning App</h7>
-                    <p>Develop a comprehensive tool for tracking and improving health and wellness. Include modules for fitness tracking, meal planning, sleep monitoring, mood tracking, and integration with wearable devices.</p>
-                
-                </motion.div>
-
                 <motion.div
                     whileInView = {{opacity: 1, x: 0}}
                     initial = {{opacity: 0, x: -100}}
                     transition = {{duration: 1.6}}
                     className="btn-container">
                     <img className="img-project" src={Project3} alt="" />
-                    <h7>Virtual Event Platform</h7>
+                    <h7>Resume AutoFill Extension</h7>
                     <p>Create a platform for hosting virtual events, conferences, and workshops. Include features such as live streaming, interactive Q&A sessions, networking opportunities, virtual booths, and attendee engagement tools.</p>
                     
                 </motion.div>
