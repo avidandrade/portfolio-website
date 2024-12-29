@@ -1,70 +1,60 @@
-
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.sections{
-    padding: 5vh;
+
+.sections {
+    padding: 5%;
 }
 
-h2,h3,h5,h6{
+h2, h3, h5, h6 {
     background: white;
     background-clip: text;
-    color:transparent;
+    color: transparent;
 }
 
-html,body {
+html, body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
     background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(74, 98, 110) 131%);
-
-
-  }  
-  
+}
 
 .wrapper {
     display: flex;
-    padding: 15vh;
-    padding-top: 17vh;
-    padding-bottom: 10vh;
+    padding: 15%;
+    padding-top: 17%;
+    padding-bottom: 10%;
     flex-direction: row-reverse;
     align-items: center;
     color: white;
     justify-content: center;
-
 }
-
 
 .textbox {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     text-align: left;
-    width: 120vh;
-    padding: 10vh;
+    width: 80%;
+    padding: 10%;
 }
 
 .image {
-    border-radius: 4vh;
+    border-radius: 4%;
     width: 50%;
-    height: 90%;
+    height: auto;
     box-shadow: 0 1px 6px gray;
 }
 
 h2 {
-    font-size: 6vh;
+    font-size: 4rem;
     width: auto;
-    margin: left;
-    padding-bottom: 5vh;
-
+    margin-left: 0;
+    padding-bottom: 1rem;
 }
-
-
 
 h1 {
     color: white;
@@ -79,45 +69,41 @@ h1 {
 .navbar a {
     text-decoration: none;
     font-weight: 700;
-    font-size: 24px;
-    padding-left: 50px;
+    font-size: 1.5rem;
+    padding-left: 3%;
     transition: 0.3s ease-in-out;
     color: white;
 }
 
-
 .about_container {
     margin: auto;
-    color: 141619;
+    color: #141619;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:145vh;
-    padding: 15vh;
-    
+    width: 90%;
+    padding: 10%;
 }
 
 .about_text {
     text-align: left;
-    width: 150vh;
-    padding-top: 6vh;
-    padding-bottom: 8vh;
-    font-size: 1vw;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: 1rem;
     color: white;
-
 }
 
 h3 {
-    font-size: 4vh;
-    padding-bottom: 6vh;
-    
+    font-size: 3rem;
+    padding-bottom: 2rem;
 }
 
-h5{
+h5 {
     margin: auto;
-    font-size: 4vh;
-    width:150vh;
-    padding-bottom: 6vh;
+    font-size: 2.5rem;
+    width: 100%;
+    padding-bottom: 2rem;
 }
 
 .socials {
@@ -125,16 +111,11 @@ h5{
     justify-content: center;
     transform: translateY(-50%);
     color: white;
-    
 }
-
 
 .socials a {
-    transition: all .70s ease;
-    
-
+    transition: all .7s ease;
 }
-
 
 .socials a:hover {
     transform: translateY(-3px);
@@ -144,99 +125,95 @@ h5{
 .textbox {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     text-align: left;
-    width: 120vh;
-    padding: 10vh;
-    font-size: 3vh;
+    width: 80%;
+    padding: 5%;
+    font-size: 1.5rem;
 }
-
 
 .contact a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     background: transparent;
-    font-size: 5vh;
+    font-size: 3rem;
     color: white;
     text-decoration: none;
-    padding: 5vh;
-    padding-top: 10vh;
-
-
+    padding: 2rem;
+    padding-top: 5rem;
 }
 
 .contact {
     margin-right: auto;
     margin-left: auto;
-    padding: 10vh;
+    padding: 5%;
 }
 
 h4 {
-    font-size: 5vh;
+    font-size: 3rem;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 2rem;
     color: white;
 }
 
-.btn-container{
+.btn-container {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    gap: 2rem;
-    border-radius: 4vh; 
-    width: 100vh;
-    color:white ;
-    height: 50vh;
-    background-color: rgba(0,0,0,.5);
-    font-size: 2vh;
-    padding: 3vh;
-    
-    
+    gap: 1rem;
+    border-radius: 2rem;
+    width: 50%;
+    color: white;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+    padding: 3rem;
 }
 
-.btn-container p{
+.btn-container p {
     text-align: center;
 }
 
-.projects-section{
+.projects-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    padding-bottom: 10vh;
+    gap: 2rem;
 }
-
 
 .img-project{
-    border-radius: 3vh;
-    width: 60%;
-    height: 80%;
+    border-radius: 3%;
+    width: 100%;
+    height: auto;
 }
 
+.btn-container a{
+   width: 80%
+}
 
-
-h6{
-    font-size: 3vh;
+h6 {
+    font-size: 2rem;
     text-align: center;
-    padding-bottom: 5vh;
-}
-h7{
-    font-weight: bold;
-    font-size: 2.5vh;;
+    padding-bottom: 1.5rem;
 }
 
-.btn{
+h7 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.btn {
     font-weight: 600;
-    font-size: 2vh;
-    width: 10rem;
-    border-radius: 2rem;
-    height: 4rem;
+    font-size: 1.5rem;
+    width: 12rem;
+    border-radius: 1rem;
+    height: 3rem;
     color: white;
-    background-color:var(--background-color);
+    background-color: var(--background-color);
     cursor: pointer;
     outline: none;
     position: relative;
@@ -245,7 +222,7 @@ h7{
     transition: color 300ms ease-in-out;
 }
 
-.btn::before{
+.btn::before {
     content: ' ';
     position: absolute;
     top: 0;
@@ -257,67 +234,15 @@ h7{
     transform: scaleX(0);
     transform-origin: center;
     z-index: -1;
-    border-radius: 2rem;
-
+    border-radius: 1rem;
 }
+
 .btn:hover::before,
-.btn:focus::before{
+.btn:focus::before {
     transform: scaleX(1);
 }
+
 .btn:hover,
-.btn:focus{
+.btn:focus {
     color: black;
-}
-
-
-
-@media (max-width: 768px) {
-    .wrapper {
-        flex-direction: column;
-        padding: 5vh;
-        padding-top: 10vh;
-    }
-    
-    .textbox {
-        width: 100%;
-        padding: 5vh;
-    }
-    
-    .image {
-        width: 100%;
-        height: auto;
-        margin-bottom: 5vh;
-    }
-    
-    .header {
-        flex-direction: column;
-        padding: 2vh;
-    }
-    
-    .navbar a {
-        padding-left: 0;
-        padding-top: 1vh;
-        padding-bottom: 1vh;
-    }
-    
-    .projects-section {
-        flex-direction: column;
-        align-items: center;
-        padding: 2vh;
-    }
-    
-    .btn-container {
-        width: 90%;
-        height: auto;
-    }
-    
-    .img-project {
-        width: 100%;
-        height: auto;
-    }
-    
-    h5 {
-        width: 100%;
-        padding-bottom: 3vh;
-    }
 }
