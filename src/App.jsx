@@ -9,8 +9,8 @@ function App() {
     <div className = "sections">
     <Header> </Header>
     <HeroSection> </HeroSection>
-    <Projectitem> </Projectitem>
     <AboutMe></AboutMe>
+    <Projectitem> </Projectitem>
     <Socials> </Socials>
     </div>
   )

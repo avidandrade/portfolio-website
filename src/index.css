@@ -31,7 +31,7 @@ html,body {
     display: flex;
     padding: 15vh;
     padding-top: 17vh;
-    padding-bottom: 30vh;
+    padding-bottom: 10vh;
     flex-direction: row-reverse;
     align-items: center;
     color: white;
