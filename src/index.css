@@ -70,9 +70,9 @@ h1 {
     text-decoration: none;
     font-weight: 700;
     font-size: 1.5rem;
-    padding-left: 3%;
     transition: 0.3s ease-in-out;
     color: white;
+    padding: 1vh;
 }
 
 .about_container {

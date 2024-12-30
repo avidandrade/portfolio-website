@@ -1,6 +1,6 @@
 
 import Project3 from './assets/profilepic.png'
-import { delay, motion, transform } from 'framer-motion';
+import { motion, transform } from 'framer-motion';
 
 const container = (time) => ({
     hidden: {x:-100, opacity: 0},
@@ -29,12 +29,8 @@ function HeroSection(){
                 <motion.p variants={container(0.6)}
                 initial="hidden"
                 animate = "visible">I'm a FIU Student, Studying Computer Science! I'm a Junior and looking for internships. </motion.p>
-
             </div>
-
-
          </div>
-
     );
 }
 
