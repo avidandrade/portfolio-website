@@ -1,10 +1,9 @@
 import Project1 from './assets/codingpic1.png'
 import Project2 from './assets/javaproject1.png'
 import Project3 from './assets/purplecode.webp'
-import { motion, stagger, useScroll } from 'framer-motion';
+import { motion } from 'framer-motion';
 
-function Project() {
-   
+function Project() {  
     return (
         <motion.div
             whileInView = {{opacity: 1, x: 0}}
@@ -12,11 +11,10 @@ function Project() {
             transition = {{duration: 1}}
   
             id="Projects" >
-            <h5>Programming Projects</h5>
             <motion.div
         
                 className="projects-section">
-
+                <h5>Programming Projects</h5>
                 <motion.div 
                     whileInView = {{opacity: 1, x: 0}}
                     initial = {{opacity: 0, x: -100}}
@@ -57,7 +55,5 @@ function Project() {
             </motion.div>
         </motion.div>
     );
-
-
 }
 export default Project

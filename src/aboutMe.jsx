@@ -7,8 +7,9 @@ function AboutMe() {
             initial = {{opacity: 0, x: 100}}
             transition = {{duration: 1.7}}
             id = "about" className="about_container">
-            <div className="about_text">
                 <h3>About Me</h3>
+            <div className="about_text">
+                
                 <p> 
                 Hi, I’m a Computer Science student with hands-on experience in IT support and a strong foundation in software development. At Florida International University, I manage IT audits, support over 50 employees, and lead initiatives like redesigning departmental websites to improve functionality and efficiency. This experience has sharpened my problem-solving skills and commitment to impactful, scalable solutions.
 
