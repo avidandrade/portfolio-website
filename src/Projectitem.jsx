@@ -3,7 +3,14 @@ import Project2 from './assets/javaproject1.png'
 import Project3 from './assets/purplecode.webp'
 import { motion } from 'framer-motion';
 
-function Project() {  
+function Project() { 
+    
+    const navigateToRepo = (url) => {
+        window.open(url, "_blank");
+    };
+
+
+
     return (
         <motion.div
             whileInView = {{opacity: 1, x: 0}}
@@ -25,7 +32,7 @@ function Project() {
                     </a>
                     <h7>Full Stack Task Manager App</h7>
                     <p>Led a team of four to develop a scalable task management app using Agile methodology, with a Node.js/Express backend, React/TypeScript frontend, and MySQL database. Designed seven reusable API routes for task and file CRUD operations, ensuring robust validation and error handling for a smooth user experience.</p>
-                
+                    <button class="button-85" role="button" onClick={() => navigateToRepo("https://github.com/avidandrade/SE2-Project")} target="_blank">GitHub Repo</button>
                 </motion.div>
                 
                 <motion.div
@@ -38,6 +45,7 @@ function Project() {
                     </a>
                     <h7>RESTFUL API Bookstore</h7>
                     <p>Developed a Online bookstore using Spring Boot as the backend and PostgreSQL as the database. Developed Book browsing and sorting features to the API. The project has 20 endpoints.</p>
+                    <button class="button-85" role="button" onClick={() =>navigateToRepo("https://github.com/avidandrade/Online-Bookstore-API")}>GitHub Repo</button>
                 </motion.div>
 
                 <motion.div
@@ -50,6 +58,7 @@ function Project() {
                     </a>
                     <h7>Resume AutoFill Extension</h7>
                     <p>Create a platform for hosting virtual events, conferences, and workshops. Include features such as live streaming, interactive Q&A sessions, networking opportunities, virtual booths, and attendee engagement tools.</p>
+                    <button class="button-85" role="button">GitHub Repo</button>
                     
                 </motion.div>
             </motion.div>
