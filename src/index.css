@@ -81,8 +81,8 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: left;
-    width: 90%;
-    padding: 10%;
+    width: 100%;
+    padding: 5px;
 }
 
 .about_text {
@@ -315,6 +315,9 @@ h7{
     .projects-section{
         padding-bottom: 25px;
     }
+    p{
+        font-size:20px;
+    }
 }
 @media (max-width: 1440px){
     .btn-container {
@@ -419,6 +422,7 @@ h7{
     }
     h3{
         padding-bottom: 0%;
+        text-align: center';
     }
 
     .btn-container {
@@ -428,24 +432,24 @@ h7{
     .projects-section{
         padding-bottom: 25px;
     }
+    h2{
+        text-align: center;
+    }
 
     .image {
         border-radius: 4%;
         width: 100%;
     }
     h4{
-        padding-top:20px;
+        padding-top:20vh;
     }
 
 }
 
-@media(max-width:349px){
-    
-    .btn-container p {
-        font-size:12px;
-    }
-
+@media (max-width: 360px){
     h2{
-        font-size:23px;
+        font-size:20px;
+        width: 100%;
+        text-align: center;
     }
 }
