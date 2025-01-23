@@ -26,7 +26,7 @@ function Socials() {
                     <motion.a href="https://www.linkedin.com/in/avid-andrade-trejo-898a87251/" variants = {iconVariants(1.3)} initial= "initial" animate = "animate" target="_blank"> <i
                         className='bx bxl-linkedin'></i>
                     </motion.a>
-                    <motion.a href="https://www.youtube.com" variants = {iconVariants(1.1)} initial= "initial" animate = "animate" > <i className='bx bxl-youtube'></i> </motion.a>
+                    <motion.a href="https://www.youtube.com" variants = {iconVariants(1.1)} initial= "initial" animate = "animate" > <i target ="_blank"className='bx bxl-youtube'></i> </motion.a>
                 </div>
             </div>
 
