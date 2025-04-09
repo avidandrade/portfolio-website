@@ -9,8 +9,6 @@ function Project() {
         window.open(url, "_blank");
     };
 
-
-
     return (
         <motion.div
             whileInView = {{opacity: 1, x: 0}}
@@ -22,6 +20,20 @@ function Project() {
         
                 className="projects-section">
                 <h5>Programming Projects</h5>
+                <motion.div
+                    whileInView = {{opacity: 1, x: 0}}
+                    initial = {{opacity: 0, x: -100}}
+                    transition = {{duration: 1.6}}
+                    className="btn-container">
+                    <a>
+                        <img className="img-project" src={Project3} alt="" />
+                    </a>
+                    <h7>BookWise!</h7>
+                    <p>  
+                    A web application that provides personalized book recommendations based on user input. It integrates AI-powered suggestions via the Ollama model and fetches detailed book information from Google Books. Users can search for books, save favorites, retrieve saved books, and delete them. The app features a responsive design, interactive UI, and seamless API integration, making it a great tool for book enthusiasts.</p>
+                    <button class="button-85" role="button"onClick={() =>navigateToRepo("https://github.com/avidandrade/book-recommendation")}>GitHub Repo</button>
+                    
+                </motion.div>
                 <motion.div 
                     whileInView = {{opacity: 1, x: 0}}
                     initial = {{opacity: 0, x: -100}}
@@ -48,19 +60,6 @@ function Project() {
                     <button class="button-85" role="button" onClick={() =>navigateToRepo("https://github.com/avidandrade/Online-Bookstore-API")}>GitHub Repo</button>
                 </motion.div>
 
-                <motion.div
-                    whileInView = {{opacity: 1, x: 0}}
-                    initial = {{opacity: 0, x: -100}}
-                    transition = {{duration: 1.6}}
-                    className="btn-container">
-                    <a>
-                        <img className="img-project" src={Project3} alt="" />
-                    </a>
-                    <h7>Resume AutoFill Extension</h7>
-                    <p>Create a platform for hosting virtual events, conferences, and workshops. Include features such as live streaming, interactive Q&A sessions, networking opportunities, virtual booths, and attendee engagement tools.</p>
-                    <button class="button-85" role="button">GitHub Repo</button>
-                    
-                </motion.div>
             </motion.div>
         </motion.div>
     );
